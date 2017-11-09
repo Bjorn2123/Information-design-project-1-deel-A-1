@@ -142,6 +142,22 @@ var node = g3.selectAll(".node")
                     .style("opacity", 0);
             });
 ```
+Daarna heb ik alleen nog dit stuk je code aan mijn CSS bestand toegevoegd om de tooltip te stijlen.
+
+```css
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 10em;
+  height: 2em;
+  padding: 1em;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+```
 
 ### Opschonen van de data
 Ook heb ik nog mijn data opgeschoond. Dit heb ik gedaan door dit stuk code aan mijn bestand toe te voegen.
