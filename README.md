@@ -54,7 +54,7 @@ Hieronder staat de function die er voor zorgt dat alles gesorteerd wordt.
             .delay(delay);
     }
 ```
-
+### De vergelijk functie
 Als je in de linker grafiek op een bar klikt, worden er in de rechtergrafiek waardes van moord en doodslag laten zien van het jaar waar op je in de linker grafiek op klikt. Dit heb gedaan doormiddel van dit stuk code.
 Zoals je ziet maak ik eerst een variabelen aan waar ik de nieuwe data in ga stoppen. 
 
@@ -109,6 +109,7 @@ var barElement = gR.selectAll(".bar2")
         return (d.Perioden === liquidation);
     };
 ```
+### Tooltip
 Ik heb ook een tooltip aangemaakt. Een tooltip is een klein pop-upje dat getoont wordt wanneer je bijvoorbeeld over een barchart hovert.
 Als eerste maak ik een nieuwe variabelen aan
 ```js
@@ -141,6 +142,8 @@ var node = g3.selectAll(".node")
                     .style("opacity", 0);
             });
 ```
+
+### Opschonen van de data
 Ook heb ik nog mijn data opgeschoond. Dit heb ik gedaan door dit stuk code aan mijn bestand toe te voegen.
 
 Als eerst roep ik mijn data bestand aan
