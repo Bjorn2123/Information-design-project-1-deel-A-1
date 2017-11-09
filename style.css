@@ -1,0 +1,212 @@
+.bar1 {
+  fill: steelblue;
+}
+
+.bar2 {
+  fill: steelblue;
+}
+
+.bar1:hover {
+  fill: brown;
+}
+
+.bar2:hover {
+  fill: brown;
+}
+
+.axis--x path {
+  display: none;
+}
+
+.liquidation{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.liquidation>p{
+    width: 25em;
+    font-family: helvetica;
+    margin: auto;
+}
+
+.Murder{
+    display: flex;
+    flex-direction: column;
+}
+
+.circledata{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.circledata>p{
+    width: 25em;
+    font-family: helvetica;
+    margin: 2em auto;
+}
+
+.pie{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.pie>p{
+    width: 25em;
+    font-family: helvetica;
+    margin: 2em auto;
+}
+
+text{
+    font-size: 1em;
+}
+
+.graphs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+#left {
+    margin-right: 10em;
+    overflow: visible;
+}
+
+#right {
+    overflow: visible;
+}
+
+section>h1{
+    font-size: 2em;
+    flex-direction: column;
+    font-family: helvetica;
+}
+
+section>h3{
+    font-size: 1em;
+    flex-direction: column;
+    font-family: helvetica;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0;
+}
+
+circle {
+  fill: #ffb3b3;
+  fill-opacity: .25;
+  stroke: #ff6666;
+  stroke-width: 1px;
+}
+
+.leaf circle {
+  fill: #ff3333;
+  fill-opacity: 1;
+}
+
+text {
+  font: 0.8em helvetica;
+  text-anchor: middle;
+white-space: pre-wrap;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 10em;
+  height: 2em;
+  padding: 1em;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.legenda{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.legenda>p{
+    text-align: center;
+}
+
+.jan{
+    width: 1em;
+    height: 1em;
+    background-color: #009933;
+}
+
+.feb{
+    width: 1em;
+    height: 1em;
+    background-color: #3333ff;
+}
+
+.mrt{
+    width: 1em;
+    height: 1em;
+    background-color: #ff4d4d;
+}
+
+.apr{
+    width: 1em;
+    height: 1em;
+    background-color: #ac7339;
+}
+
+.mei{
+    width: 1em;
+    height: 1em;
+    background-color: #ac00e6;
+}
+
+.jun{
+    width: 1em;
+    height: 1em;
+    background-color: #ff3333;
+}
+
+.jul{
+    width: 1em;
+    height: 1em;
+    background-color: #ff3333;
+}
+
+.aug{
+    width: 1em;
+    height: 1em;
+    background-color: #cccc00;
+}
+
+.sept{
+    width: 1em;
+    height: 1em;
+    background-color: #ff3399;
+}
+
+.okt{
+    width: 1em;
+    height: 1em;
+    background-color: #40ff00;
+}
+
+.nov{
+    width: 1em;
+    height: 1em;
+    background-color: #b3b3ff;
+}
+
+.dec{
+    width: 1em;
+    height: 1em;
+    background-color: #0088cc;
+}

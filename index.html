@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+
+<section class="graphs">
+    <h1>Aantal liquidaties binnen Nederland TOV Aantal slachtoffers moord en doodslag</h1>
+    <section class="liquidation">
+        <h3>Van 2000 tot 2010</h3>
+        <svg id="left" width="600" height="500"></svg>
+        <label><input id="InputL" type=checkbox> Sorteer</label>
+        <p>Hier zie je het aantal liquidaties ten opzichte van de slachtoffers van moord en doodslag binnen Nederland.
+        Als je op een van de bars in de linker grafiek klikt, wordt er in de rechtergrafiek de waarde van dat zelfde jaar weergeven.
+        Ook kan je de linker grafiek sorteren.</p>
+    </section>
+
+    <section class="Murder">
+        <svg id="right" width="600" height="500"></svg>
+    </section>
+
+    <section class="circledata">
+        <h1>Liquidaties in landdelen en plaatsen</h1>
+        <h3>Van 2000 tot 2010</h3>
+        <svg id="circle" width="860" height="860"></svg>
+        <p>Deze datavisualisatie toont het aantal liquidaties in landdelen en plaatsen. Als men over een cirkel hovert word het aantal geliquideerde personen getoond.</p>
+    </section>
+
+    <section class="pie">
+        <h1>Liquidaties in maanden</h1>
+        <h3>Van 2000 tot 2010</h3>
+        <svg id="pie" width="960" height="500"></svg>
+        <div class="legenda">
+            <div class="jan"></div><p>Januari</p>
+            <div class="feb"></div><p>Februari</p>
+            <div class="mrt"></div><p>Maart</p>
+            <div class="apr"></div><p>April</p>
+            <div class="mei"></div><p>Mei</p>
+            <div class="jul"></div><p>Juli</p>
+            <div class="aug"></div><p>Augustus</p>
+            <div class="sept"></div><p>September</p>
+            <div class="okt"></div><p>Oktober</p>
+            <div class="nov"></div><p>November</p>
+            <div class="dec"></div><p>December</p>
+        </div>
+        
+        <p>Deze piechart toont het aantal liquidaties per maand. Als men over een deel van de piechart hovert word het aantal geliquideerde personen getoond.</p>
+    </section>
+</section>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="index.js"></script>

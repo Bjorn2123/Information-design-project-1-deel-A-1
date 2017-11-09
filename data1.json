@@ -1,0 +1,38 @@
+{
+    "name": "Totaal",
+    "children": [
+        {
+            "name": "Noord-Nederland",
+            "children": [
+                {"name": "Amsterdam", "size": 15},
+                {"name": "Amstelveen", "size": 2},
+                {"name": "Diemen", "size": 1},
+                {"name": "Hoorn", "size": 1},
+                {"name": "Zandvoort", "size": 1},
+                {"name": "Nieuw-Vennep", "size": 1},
+                {"name": "Bussum", "size": 1}
+            ]
+        },
+        {
+            "name": "Midden-Nederland",
+            "children": [
+                {"name": "Leiderdorp", "size": 2},
+                {"name": "Hoek v. Holland", "size": 1}
+                ]
+        },
+        {
+            "name": "Zuid-Nederland",
+            "children": [
+                {"name": "Breda", "size": 1},
+                {"name": "Breda", "size": 1}
+                ]
+        },
+        {
+            "name": "overig",
+            "children":[
+                {"name": "Pattaya(Thailand)", "size": 1},
+                {"name": "Hamont-achel(Belgie)", "size":1}
+            ]
+        }
+    ]
+}
