@@ -1,5 +1,7 @@
 # Information-design-project-1-deel-A
 
+[Link naar werkend prototype]( https://japgroevemaker.github.io/Information-design-project-1-deel-A/)
+
 ## Concept
 Bij het vak RfD hadden we een onderwerp toebedeeld gekregen. Mijn onderwerp was voedsel. Opzich heel intressant, maar omdat het onderwerp voor het eerste deel van het project vrij was. Heb ik gekozen voor een onderwerp wat mij wel aansprak, liquidaties in de onderwereld. Ik heb gekozen om dit te doen vanaf het jaar 2000 tot 2010. Mijn idee is om het aantal liquidaties te laten zien in verschillende samenstellingen. Ik laat het aantal liquidaties per jaar zien, Het aantal liquidaties per landdeel en het aantal liquidaties per maand. 
 
