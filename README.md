@@ -176,8 +176,14 @@ Vervolgens vertel ik wat ik uit het data bestand wil pakken
 ```
 
 ## Bronnen
-[dataset 1] (http://statline.cbs.nl/Statweb/publication/?DM=SLNL&PA=7052_95&D1=89&D2=a&D3=0&D4=50-60&HDR=G1,G2,G3&STB=T&VW=T)
+[dataset 1](http://statline.cbs.nl/Statweb/publication/?DM=SLNL&PA=7052_95&D1=89&D2=a&D3=0&D4=50-60&HDR=G1,G2,G3&STB=T&VW=T)
 
-[dataset 2] (https://nl.wikipedia.org/wiki/Lijst_van_criminele_liquidaties_in_Nederland)
+[dataset 2](https://nl.wikipedia.org/wiki/Lijst_van_criminele_liquidaties_in_Nederland)
 
-[Barchart] (https://bl.ocks.org/mbostock/3885304)
+[Barchart](https://bl.ocks.org/mbostock/3885304)
+
+[Circle chart](https://bl.ocks.org/mbostock/4063530)
+
+[Pie chart](https://bl.ocks.org/mbostock/3887235)
+
+
